@@ -80,7 +80,7 @@ const Page = () => {
     setChartUpdateMode("show");
   };
 
-  // チェックボックスの状態が変更されたときに呼ばれる関数です
+  // チェックボックスの状態が変更されたときに呼ばれる関数ですd
   const handleFilter = useCallback(
     (filteredPref: PrefPopulation[]) => {
       setFilteredPrefList(filteredPref);
